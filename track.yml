@@ -1,0 +1,32 @@
+slug: getting-started-with-ansible
+icon: https://storage.googleapis.com/instruqt-frontend/img/tracks/default.png
+title: Getting started with Ansible
+teaser: This is a very simple Ansible track
+description: |-
+        This track is used to demonstrate the Ansible tool.
+tags: []
+challenges:
+- slug: ad-hoc-command
+  credits: 10
+  title: Run an ad-hoc command with Ansible
+  teaser: No playbooks yet, just commands
+  notes:
+  - type: text
+    title: Ad-hoc commands
+    contents: |-
+            With Ansible you can run ad-hoc commands, which will run on the remote host.
+  assignment: 'Try to run an ad-hoc command with Ansible on the remote host named
+    _remote_. Hint: first add the host to the Ansible hosts file!'
+  difficulty: basic
+  timelimit: 900
+  points: 50
+  unlocks: []
+  tabs:
+    internal:
+    - type: terminal
+      title: Shell
+      name: shell
+      port: 8080
+    external: []
+developers:
+- bas@instruqt.com

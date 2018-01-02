@@ -1,0 +1,20 @@
+template: containers
+configuration:
+  Containers:
+  - Image: gcr.io/instruqt/shell-ansible:latest
+    Name: shell
+    Ports:
+    - Name: shell
+      Port: 8080
+    Privileged: false
+    Resources:
+      Memory: 128
+  - Image: gcr.io/instruqt/shell-ansible:latest
+    Name: remote
+    Ports:
+    - Exposed: false
+      Name: ssh
+      Port: 22
+    Privileged: false
+    Resources:
+      Memory: 128

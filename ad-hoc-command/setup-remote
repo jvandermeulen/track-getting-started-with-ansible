@@ -1,0 +1,7 @@
+#!/bin.bash
+
+mkdir ~/.ssh
+
+cat <<EOF! >> ~/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDPVoV7angrhSAMg3YvKFZx/HL2sjlKp4rlFmGd+8O5ApLkE/wwHJBgkV21lozvWEa8demlw9uwAcAWR4JzhFajF0AyFcC3uRD0bAHVKBWaRLdGZEh1O/ps9PAgseM2B7/c5TvQTdqLuglaNIb8xEvazGfpk1R6wZXROAULXtwifdvTii1Ccw2+iePuHmwCSrR5D9x6ILKkGnwt6mZpStTN7jK8v8QJ+HZn8fBohC7PdylxizZ96ylQMDikfE8IRdif5qkKSMngHdDoooO/XX/W5I30MUd/nk6Nn1yhdJKBzGgL1JafPnleOuBaxpKOW9CcchyhahPEOUkszq/id1GT instruqt
+EOF!
